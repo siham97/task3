@@ -17,12 +17,12 @@ public static void main (String args[]) {
 
 	driver.findElement(By.xpath(".//*[@id='u_0_m']")).sendKeys("0598307540");*/
 	Select sel= new Select(driver.findElement(By.xpath(".//*[@id='month']")));
-	sel.selectByIndex(3);
+	sel.selectByIndex(4);
 	/*Select se= new Select(driver.findElement(By.xpath(".//*[@id='day']")));
 	
 	se.selectByIndex(3);
 	Select el= new Select(driver.findElement(By.xpath(".//*[@id='year']")));
-	el.selectByIndex(15);
+	el.selectByIndex(15)
 	driver.findElement(By.xpath(".//*[@id='u_0_7']")).click();
 */
 	driver.findElement(By.xpath(".//*[@id='u_0_s']")).click();
