@@ -26,8 +26,8 @@ static WebDriver driver;
 		//fail("Not yet implemented");
 		driver.get("http://facebook.com");
 		driver.manage().window().maximize();
-		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("siham.soso33@yahoo.com");
-		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("78963214");
+		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("sihamabubaker@yahoo.com");
+		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("1234");
 		driver.findElement(By.xpath(".//*[@id='u_0_2']")).click();
 
 	}
